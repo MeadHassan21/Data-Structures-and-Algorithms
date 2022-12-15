@@ -1,13 +1,14 @@
-def BubbleSort(list):
-  indexing_lenght = len(list)-1
-  Sorted = False 
-  
-  while not Sorted:
-    for i in range(0,indexing_lenght):
-      Sorted = True 
-      if list[i] > list[i+1]
-        Sorted = False
-        list[i],list[i+1] = list[i+1],list[i]
-        
-  return list 
-      
+def bubble(list_a):
+    indexing_lenght = len(list_a) - 1
+    sorted = False 
+    
+    while not sorted:
+        sorted = True
+        for i in range(0,indexing_lenght):
+            if list_a[i] > list_a[i+1]:
+                sorted = False
+                list_a[i], list_a[i+1] = list_a[i+1], list_a[i]
+    return list_a
+    
+
+
