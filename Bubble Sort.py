@@ -1,4 +1,4 @@
-def bubble(list_a):
+def bubbleSort(list_a):
     indexing_lenght = len(list_a) - 1
     sorted = False 
     
