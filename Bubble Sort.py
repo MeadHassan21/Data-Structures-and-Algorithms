@@ -1,14 +1,14 @@
-def bubbleSort(list_a):
-    indexing_lenght = len(list_a) - 1
+def bubbleSort(list_m):
+    indexing_lenght = len(list_m) - 1
     sorted = False 
     
     while not sorted:
         sorted = True
         for i in range(0,indexing_lenght):
-            if list_a[i] > list_a[i+1]:
+            if list_m[i] > list_m[i+1]:
                 sorted = False
-                list_a[i], list_a[i+1] = list_a[i+1], list_a[i]
-    return list_a
+                list_m[i], list_m[i+1] = list_m[i+1], list_m[i]
+    return list_m
     
 
 
